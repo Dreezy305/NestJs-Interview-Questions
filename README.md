@@ -8,8 +8,8 @@ Note: This project is specific to nestjs.
 
 | No        | Question        |
 | --------------- | --------------- |
-| 1 | Row 1, Column 2  |
-| 2 | Row 2, Column 2  |
+| 1 | What is Nestjs  |
+| 2 | What are the major features of Nestjs  |
 
 # Disclaimer
 

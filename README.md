@@ -13,7 +13,7 @@ Note: This project is specific to nestjs.
 | 3   | [How does Nestjs work](#How-does-nestjs-work)                                                         |
 | 4   | [What are the HTTP Frameworks supported by Nestjs](#What-are-the-HTTP-Frameworks-supported-by-Nestjs) |
 | 5   | [What default Framework is used by Nestjs](#What-default-framwork-is-used-by-Nestjs) |
-| 6   | [How can you specify the Framework/platform to use in Nestjs](#How-can-you-specify-the-Framework-platform-to-use-in-Nestjs) |
+| 6   | [How can you specify the Framework/platform to use in Nestjs](#How-can-you-specify-the-Framework/platform-to-use-in-Nestjs) |
 
 ### What is Nestjs
 

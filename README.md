@@ -6,46 +6,53 @@ Note: This project is specific to nestjs.
 
 # Table of Contents
 
-| No  | Question                                                                                              |
-| --- | ----------------------------------------------------------------------------------------------------- |
-| 1   | [What is Nestjs](#what-is-nestjs)                                                                     |
-| 2   | [What are the major features of Nestjs](#what-are-the-major-features-of-nestjs)                       |
-| 3   | [How does Nestjs work](#How-does-nestjs-work)                                                         |
-| 4   | [What are the HTTP Frameworks supported by Nestjs](#What-are-the-HTTP-Frameworks-supported-by-Nestjs) |
-| 5   | [What default Framework is used by Nestjs](#What-default-framwork-is-used-by-Nestjs) |
-| 6   | [How can you specify the Framework/platform to use in Nestjs](#How-can-you-specify-the-Framework/platform-to-use-in-Nestjs) |
+| No  | Question                                                                                                                      |
+| --- | ----------------------------------------------------------------------------------------------------------------------------- |
+| 1   | [What is Nestjs](#what-is-nestjs)                                                                                             |
+| 2   | [What are the major features of Nestjs](#what-are-the-major-features-of-nestjs)                                               |
+| 3   | [How does Nestjs work](#How-does-nestjs-work)                                                                                 |
+| 4   | [What are the HTTP Frameworks supported by Nestjs](#What-are-the-HTTP-Frameworks-supported-by-Nestjs)                         |
+| 5   | [What default Framework is used by Nestjs](#What-default-framwork-is-used-by-Nestjs)                                          |
+| 6   | [How can you specify the Framework to use in Nestjs](#How-can-you-specify-the-Framework-to-use-in-Nestjs)                     |
+| 7   | [What is responsible for handling incoming requests in Nestjs](#What-is-responsible-for-handling-incoming-requests-in-Nestjs) |
 
 ### What is Nestjs
 
 Nest (NestJS) is a framework for building efficient, scalable Node.js server-side applications. It uses progressive JavaScript, is built with and fully supports TypeScript (yet still enables developers to code in pure JavaScript) and combines elements of OOP (Object Oriented Programming), FP (Functional Programming), and FRP (Functional Reactive Programming).
 
-### What are the major features of Nestjs 
+### What are the major features of Nestjs
 
 ### What are the HTTP Frameworks supported by Nestjs
+
 Out of the box, Nestjs supports 2 frameworks which are fastify and express. As a developer, you can choose to use any one of frameworks that suits your use case
 
 ### What default Framework is used by Nestjs
+
 Under the hood, Nest makes use of express by default and optionally can be configured to use Fastify as well.
 
 ### How can you specify the Framework/platform to use in Nestjs
+
 In your `main.ts` file, create a NestJS application using the `NestFactory` method:
 
 ```typescript
-import { NestFactory } from '@nestjs/core';
-import { NestExpressApplication } from '@nestjs/platform-express';
-import { AppModule } from './app.module';
+import { NestFactory } from "@nestjs/core";
+import { NestExpressApplication } from "@nestjs/platform-express";
+import { AppModule } from "./app.module";
 
 async function bootstrap() {
-    // IF YOU WANT TO USE EXPRESS
-    const app = await NestFactory.create<NestExpressApplication>(AppModule);
+  // IF YOU WANT TO USE EXPRESS
+  const app = await NestFactory.create<NestExpressApplication>(AppModule);
 
-    // IF YOU WANT TO USE FASTIFY
+  // IF YOU WANT TO USE FASTIFY
   const app = await NestFactory.create<NestFastifyApplication>(AppModule);
   await app.listen(3000);
 }
 bootstrap();
 ```
 
+### What is responsible for handling incoming requests in Nestjs
+
+In Nestjs, Controllers are responsible for handling incoming requests and returning responses to the client.
 
 # Disclaimer
 

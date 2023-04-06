@@ -9,7 +9,7 @@ Note: This project is specific to nestjs.
 | No  | Question                                                                                                                      |
 | --- | ----------------------------------------------------------------------------------------------------------------------------- |
 | 1   | [What is Nestjs](#what-is-nestjs)                                                                                             |
-| 2   | [What are the major features of Nestjs](#what-are-the-major-features-of-nestjs)                                               |
+| 2   | [What are the major components of Nestjs](#what-are-the-major-features-of-nestjs)                                             |
 | 3   | [How does Nestjs work](#How-does-nestjs-work)                                                                                 |
 | 4   | [What are the HTTP Frameworks supported by Nestjs](#What-are-the-HTTP-Frameworks-supported-by-Nestjs)                         |
 | 5   | [What default Framework is used by Nestjs](#What-default-framwork-is-used-by-Nestjs)                                          |
@@ -20,7 +20,9 @@ Note: This project is specific to nestjs.
 
 Nest (NestJS) is a framework for building efficient, scalable Node.js server-side applications. It uses progressive JavaScript, is built with and fully supports TypeScript (yet still enables developers to code in pure JavaScript) and combines elements of OOP (Object Oriented Programming), FP (Functional Programming), and FRP (Functional Reactive Programming).
 
-### What are the major features of Nestjs
+### What are the major comppnents of Nestjs
+
+The main components of a NestjS application are the controller, service, and module.
 
 ### What are the HTTP Frameworks supported by Nestjs
 

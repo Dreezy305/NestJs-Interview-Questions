@@ -32,7 +32,7 @@ Out of the box, Nestjs supports 2 frameworks which are fastify and express. As a
 
 Under the hood, Nest makes use of express by default and optionally can be configured to use Fastify as well.
 
-### How can you specify the Framework/platform to use in Nestjs
+### How can you specify the Framework to use in Nestjs
 
 In your `main.ts` file, create a NestJS application using the `NestFactory` method:
 

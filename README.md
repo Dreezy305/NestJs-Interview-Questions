@@ -12,6 +12,8 @@ Note: This project is specific to nestjs.
 | 2   | [What are the major features of Nestjs](#what-are-the-major-features-of-nestjs)                       |
 | 3   | [How does Nestjs work](#How-does-nestjs-work)                                                         |
 | 4   | [What are the HTTP Frameworks supported by Nestjs](#What-are-the-HTTP-Frameworks-supported-by-Nestjs) |
+| 5   | [What default Framework is used by Nestjs](#What-default-framwork-is-used-by-Nestjs) |
+| 6   | [How can you specify the Framework/platform to use in Nestjs](#How-can-you-specify-the-Framework-platform-to-use-in-Nestjs) |
 
 ### What is Nestjs
 
@@ -21,6 +23,25 @@ Nest (NestJS) is a framework for building efficient, scalable Node.js server-sid
 
 ### What are the HTTP Frameworks supported by Nestjs
 Out of the box, Nestjs supports 2 frameworks which are fastify and express. As a developer, you can choose to use any one of frameworks that suits your use case
+
+### What default Framework is used by Nestjs
+Under the hood, Nest makes use of express by default and optionally can be configured to use Fastify as well.
+
+### How can you specify the Framework/platform to use in Nestjs
+In your `main.ts` file, create a NestJS application using the `NestFactory` method:
+
+```typescript
+import { NestFactory } from '@nestjs/core';
+import { NestExpressApplication } from '@nestjs/platform-express';
+import { AppModule } from './app.module';
+
+async function bootstrap() {
+  const app = await NestFactory.create<NestFastifyApplication>(AppModule);
+  await app.listen(3000);
+}
+bootstrap();
+```
+
 
 # Disclaimer
 

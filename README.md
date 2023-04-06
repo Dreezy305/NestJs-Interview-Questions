@@ -13,11 +13,14 @@ Note: This project is specific to nestjs.
 | 3   | [How does Nestjs work](#How-does-nestjs-work)                                                         |
 | 4   | [What are the HTTP Frameworks supported by Nestjs](#What-are-the-HTTP-Frameworks-supported-by-Nestjs) |
 
-### 1. What is Nestjs
+### What is Nestjs
 
 Nest (NestJS) is a framework for building efficient, scalable Node.js server-side applications. It uses progressive JavaScript, is built with and fully supports TypeScript (yet still enables developers to code in pure JavaScript) and combines elements of OOP (Object Oriented Programming), FP (Functional Programming), and FRP (Functional Reactive Programming).
 
-### What are the major features of Nestjs
+### What are the major features of Nestjs 
+
+### What are the HTTP Frameworks supported by Nestjs
+Out of the box, Nestjs supports 2 frameworks which are fastify and express. As a developer, you can choose to use any one of frameworks that suits your use case
 
 # Disclaimer
 

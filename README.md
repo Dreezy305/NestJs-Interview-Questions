@@ -36,6 +36,10 @@ import { NestExpressApplication } from '@nestjs/platform-express';
 import { AppModule } from './app.module';
 
 async function bootstrap() {
+    // IF YOU WANT TO USE EXPRESS
+    const app = await NestFactory.create<NestExpressApplication>(AppModule);
+
+    // IF YOU WANT TO USE FASTIFY
   const app = await NestFactory.create<NestFastifyApplication>(AppModule);
   await app.listen(3000);
 }

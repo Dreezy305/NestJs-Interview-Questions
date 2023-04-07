@@ -15,6 +15,7 @@ Note: This project is specific to nestjs.
 | 5   | [What default Framework is used by Nestjs](#What-default-framwork-is-used-by-Nestjs)                                          |
 | 6   | [How can you specify the Framework to use in Nestjs](#How-can-you-specify-the-Framework-to-use-in-Nestjs)                     |
 | 7   | [What is responsible for handling incoming requests in Nestjs](#What-is-responsible-for-handling-incoming-requests-in-Nestjs) |
+| 8   | [What are Decorators in Nestjs](#What-are-decorators-in-Nestjs) |
 
 ### What is Nestjs
 
@@ -55,6 +56,9 @@ bootstrap();
 ### What is responsible for handling incoming requests in Nestjs
 
 In Nestjs, Controllers are responsible for handling incoming requests and returning responses to the client. The routing mechanism controls which controller receives which requests. Frequently, each controller has more than one route, and different routes can perform different actions.
+
+### What are Decorators in Nestjs
+ Decorators are responsibled for associating classes with required metadata. Hence, enabling Nest to create a routing map 
 
 # Disclaimer
 

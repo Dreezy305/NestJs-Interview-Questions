@@ -16,7 +16,7 @@ Note: This project is specific to nestjs.
 | 6   | [How can you specify the Framework to use in Nestjs](#How-can-you-specify-the-Framework-to-use-in-Nestjs)                     |
 | 7   | [What is responsible for handling incoming requests in Nestjs](#What-is-responsible-for-handling-incoming-requests-in-Nestjs) |
 | 8   | [What are Decorators in Nestjs](#What-are-decorators-in-Nestjs)                                                               |
-| 9   | [What are Controllers in Nest](#What-are-controllers-in-Nestjs)                                                               |
+| 9   | [What are Controllers in Nestjs](#What-are-controllers-in-Nestjs)                                                               |
 
 ### What is Nestjs
 

@@ -62,6 +62,22 @@ In Nestjs, Controllers are responsible for handling incoming requests and return
 
 Decorators are responsibled for associating classes with required metadata. Hence, enabling Nest to create a routing map
 
+### What are Controllers in Nestjs
+
+Controllers are responsible for handling incoming requests and returning responses to the client.
+
+```typescript
+import { Controller, Get } from "@nestjs/common";
+
+@Controller("auth")
+export class AuthController {
+  @Get()
+  findAllUsers(): string {
+    return "This controller returns users";
+  }
+}
+```
+
 # Disclaimer
 
 The primary purpose of setting up this project is for you to get an insight into how nestjs questions might be structured. This doesn't neccessarily represent the nature of nestjs interviews across various companies and neither is it a standard that represents nestjs questions.

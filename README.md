@@ -17,6 +17,7 @@ Note: This project is specific to nestjs.
 | 7   | [What is responsible for handling incoming requests in Nestjs](#What-is-responsible-for-handling-incoming-requests-in-Nestjs) |
 | 8   | [What are Decorators in Nestjs](#What-are-decorators-in-Nestjs)                                                               |
 | 9   | [What are Controllers in Nestjs](#What-are-controllers-in-Nestjs)                                                               |
+| 10   | [What is a Request Object](#What-is-a-request-object)                                                               |
 
 ### What is Nestjs
 
@@ -77,6 +78,10 @@ export class AuthController {
   }
 }
 ```
+
+### What is a Request object
+
+The req object represents the HTTP request and has properties for the request query string, parameters, body, HTTP headers etc.
 
 # Disclaimer
 

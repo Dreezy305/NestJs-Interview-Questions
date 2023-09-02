@@ -81,7 +81,7 @@ export class AuthController {
 
 ### What is a Request object
 
-The req object represents the HTTP request and has properties for the request query string, parameters, body, HTTP headers etc.
+The req object represents the HTTP request and has properties for the request query string, parameters, body, HTTP headers. In other wors, it contains client-side request details.
 
 # Disclaimer
 

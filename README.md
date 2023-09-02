@@ -84,6 +84,10 @@ export class AuthController {
 
 The req object represents the HTTP request and has properties for the request query string, parameters, body, HTTP headers etc. In other words it contain client request details.
 
+### How do we access Request object in Nestjs
+
+The req object represents the HTTP request and has properties for the request query string, parameters, body, HTTP headers etc. In other words it contain client request details.
+
 # Disclaimer
 
 The primary purpose of setting up this project is for you to get an insight into how nestjs questions might be structured. This doesn't neccessarily represent the nature of nestjs interviews across various companies and neither is it a standard that represents nestjs questions.

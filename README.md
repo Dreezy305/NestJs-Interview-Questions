@@ -88,6 +88,18 @@ The req object represents the HTTP request and has properties for the request qu
 
 The req object represents the HTTP request and has properties for the request query string, parameters, body, HTTP headers etc. In other words it contain client request details.
 
+```typescript
+import { Controller, Get } from "@nestjs/common";
+
+@Controller("auth")
+export class AuthController {
+  @Get()
+  findAllUsers(): string {
+    return "This controller returns users";
+  }
+}
+```
+
 # Disclaimer
 
 The primary purpose of setting up this project is for you to get an insight into how nestjs questions might be structured. This doesn't neccessarily represent the nature of nestjs interviews across various companies and neither is it a standard that represents nestjs questions.

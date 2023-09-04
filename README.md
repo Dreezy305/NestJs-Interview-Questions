@@ -86,7 +86,7 @@ The req object represents the HTTP request and has properties for the request qu
 
 ### How do we access Request object in Nestjs
 
-The req object represents the HTTP request and has properties for the request query string, parameters, body, HTTP headers etc. In other words it contain client request details.
+We can access the request object by instructing Nest to inject it by adding the @Req() decorator to the handler's signature.
 
 ```typescript
 import { Controller, Get, Req } from '@nestjs/common';

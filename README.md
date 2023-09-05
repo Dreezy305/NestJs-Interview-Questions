@@ -102,6 +102,10 @@ export class CatsController {
 }
 ```
 
+### What are Controllers in Nestjs
+
+Controllers are responsible for handling incoming requests and returning responses to the client.
+
 # Disclaimer
 
 The primary purpose of setting up this project is for you to get an insight into how nestjs questions might be structured. This doesn't neccessarily represent the nature of nestjs interviews across various companies and neither is it a standard that represents nestjs questions.

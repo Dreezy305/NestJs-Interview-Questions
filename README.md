@@ -102,7 +102,7 @@ export class CatsController {
 }
 ```
 
-### What are Controllers in Nestjs
+### How do we access properties of Request object in Nestjs
 
 Controllers are responsible for handling incoming requests and returning responses to the client.
 

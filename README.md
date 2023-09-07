@@ -63,7 +63,7 @@ In Nestjs, Controllers are responsible for handling incoming requests and return
 
 ### What are Decorators in Nestjs
 
-Decorators are responsibled for associating classes with required metadata. Hence, enabling Nest to create a routing map
+Decorators are responsible for associating classes with required metadata. Hence, enabling Nest to create a routing map
 
 ### What are Controllers in Nestjs
 

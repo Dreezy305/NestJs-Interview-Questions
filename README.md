@@ -104,7 +104,7 @@ export class CatsController {
 
 ### How do we access properties of Request object in Nestjs
 
-Request objexct properties can be accessed by using the dedicated decorators. these include: ```@Body()``` ,  ```@Query()``` etc.
+Request object properties can be accessed by using the dedicated decorators. these include: ```@Body()``` ,  ```@Query()``` etc.
 
 # Disclaimer
 

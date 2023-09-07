@@ -90,6 +90,10 @@ The req object represents the HTTP request and has properties for the request qu
 
 Request object can be accessed by adding the @Req() decorator to the handler's signature.
 
+### What are providers in Nestjs
+
+Request object can be accessed by adding the @Req() decorator to the handler's signature.
+
 ```typescript
 import { Controller, Get, Req } from '@nestjs/common';
 import { Request } from 'express';

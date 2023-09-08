@@ -112,7 +112,7 @@ Providers are classes that are used to encapsulate and provide specific function
 
 It's a technique where by a the output of a class is the input of another class. in other words, a class or object provides dependencies needed by another class. It allows for better separation of concerns, making code more modular, testable, and maintainable.
 
-### What is Dependency Injection
+### What are the key concepts of Dependency Injection
 
 It's a technique where by a the output of a class is the input of another class. in other words, a class or object provides dependencies needed by another class. It allows for better separation of concerns, making code more modular, testable, and maintainable.
 

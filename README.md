@@ -28,7 +28,7 @@ Nest (NestJS) is a framework for building efficient, scalable Node.js server-sid
 
 ### What are the major components of Nestjs
 
-The main components of a NestjS application are the controller, service, and module.
+The main components of a NestJS application are the controller, service, and module.
 
 ### What are the HTTP Frameworks supported by Nestjs
 

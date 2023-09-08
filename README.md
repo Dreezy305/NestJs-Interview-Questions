@@ -22,7 +22,7 @@ Note => This project is specific to NestJS.
 | 12  | [How do we access properties of Request object in Nestjs](#How-do-we-access-properties-of-request-object-in-nestjs)           |
 | 13  | [What are providers in Nestjs](#What-are-providers-in-nestjs)                                                                 |
 | 14  | [What is Dependency Injection](#What-is-dependency-injection)                                                                 |
-| 15  | [What are the key concepts of Dependency Injection](#What-key-concepts-of-dependency-injection)                               |
+| 15  | [What are the key concepts of Dependency Injection](#What-are-the-key-concepts-of-dependency-injection)                       |
 
 ### What is Nestjs
 

@@ -96,7 +96,7 @@ Request object can be accessed by adding the @Req() decorator to the handler's s
 
 ### What is Dependency Injection
 
-Request object can be accessed by adding the @Req() decorator to the handler's signature.
+It's a technique where by a the output of a class is the input of another class. in other words, a class or object provides dependencies needed by another class.
 
 ```typescript
 import { Controller, Get, Req } from "@nestjs/common";

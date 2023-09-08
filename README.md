@@ -91,18 +91,6 @@ The req object represents the HTTP request and has properties for the request qu
 
 Request object can be accessed by adding the @Req() decorator to the handler's signature.
 
-### What are providers in Nestjs
-
-Request object can be accessed by adding the @Req() decorator to the handler's signature.
-
-### What is Dependency Injection
-
-It's a technique where by a the output of a class is the input of another class. in other words, a class or object provides dependencies needed by another class. It allows for better separation of concerns, making code more modular, testable, and maintainable.
-
-### What is Dependency Injection
-
-It's a technique where by a the output of a class is the input of another class. in other words, a class or object provides dependencies needed by another class. It allows for better separation of concerns, making code more modular, testable, and maintainable.
-
 ```typescript
 import { Controller, Get, Req } from "@nestjs/common";
 import { Request } from "express";
@@ -116,9 +104,17 @@ export class CatsController {
 }
 ```
 
-### How do we access properties of Request object in Nestjs
+### What are providers in Nestjs
 
 Providers are classes that are used to encapsulate and provide specific functionalities or services within an application. They are a fundamental concept in NestJS dependency injection system, which allows for the efficient management of dependencies and the modularization of code.
+
+### What is Dependency Injection
+
+It's a technique where by a the output of a class is the input of another class. in other words, a class or object provides dependencies needed by another class. It allows for better separation of concerns, making code more modular, testable, and maintainable.
+
+### What is Dependency Injection
+
+It's a technique where by a the output of a class is the input of another class. in other words, a class or object provides dependencies needed by another class. It allows for better separation of concerns, making code more modular, testable, and maintainable.
 
 # Disclaimer
 

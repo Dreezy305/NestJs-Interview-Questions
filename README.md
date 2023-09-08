@@ -2,7 +2,7 @@
 
 Please give this project a :star: if you like it. Pull Request are highly appreciated. You can follow me on twitter [@miles_slades](https://twitter.com/miles_slades) for more updates.
 
-Note=> This project is specific to nestjs.
+Note=> This project is specific to NestJS.
 
 # Table of Contents
 

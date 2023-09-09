@@ -116,7 +116,7 @@ It's a technique where by a the output of a class is the input of another class.
 
 1. Dependency: A class or service that another class relies on. For example, if a class A needs an instance of class B to function, B is a dependency of A
 2. Client: It is the class that will receive the injected dependency.
-<!-- 3. Injector: The injector is responsible for providing the necessary dependencies to the client. It acts as an intermediary, resolving and injecting the dependencies into the client class. -->
+3. Injector: The injector is responsible for providing the necessary dependencies to the client. It acts as an intermediary, resolving and injecting the dependencies into the client class.
 
 # Disclaimer
 

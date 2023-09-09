@@ -113,6 +113,7 @@ Providers are classes that are used to encapsulate and provide specific function
 It's a technique where by a the output of a class is the input of another class. in other words, a class or object provides dependencies needed by another class. It allows for better separation of concerns, making code more modular, testable, and maintainable.
 
 ### What are the key concepts of Dependency Injection
+The key concepts of Dependency Injection include:
 
 1. Dependency: A class or service that another class relies on. For example, if a class A needs an instance of class B to function, B is a dependency of A
 2. Client: It is the class that will receive the injected dependency.

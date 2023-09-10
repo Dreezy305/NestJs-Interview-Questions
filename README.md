@@ -111,7 +111,7 @@ export class CatsController {
 
 ### How do we access properties of Request object in Nestjs
 
-Providers are classes that are used to encapsulate and provide specific functionalities or services within an application. They are a fundamental concept in NestJS's dependency injection system, which allows for the efficient management of dependencies and the modularization of code
+Providers are classes that are used to encapsulate and provide specific functionalities or services within an application. They are a fundamental concept in NestJS dependency injection system, which allows for the efficient management of dependencies and the modularization of code
 
 # Disclaimer
 

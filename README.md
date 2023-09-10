@@ -6,20 +6,20 @@ Note => This project is specific to NestJS.
 
 # Table of Contents
 
-| No  | Question                                                                                                                     |
-| --- | ---------------------------------------------------------------------------------------------------------------------------- |
-| 1   | [What is Nestjs](#what-is-nestjs)                                                                                            |
-| 2   | [What are the major features of Nestjs](#what-are-the-major-features-of-nestjs)                                              |
-| 3   | [How does Nestjs work](#How-does-nestjs-work)                                                                                |
-| 4   | [What are the HTTP Frameworks supported by Nestjs](#What-are-the-HTTP-Frameworks-supported-by-Nestjs)                        |
-| 5   | [What default Framework is used by Nestjs](#What-default-framwork-is-used-by-Nestjs)                                         |
-| 6   | [How can you specify the Framework to use in Nestjs](#How-can-you-specify-the-Framework-to-use-in-Nestjs)                    |
+| No  | Question                                                                                                                   |
+| --- | -------------------------------------------------------------------------------------------------------------------------- |
+| 1   | [What is Nestjs](#what-is-nestjs)                                                                                          |
+| 2   | [What are the major features of Nestjs](#what-are-the-major-features-of-nestjs)                                            |
+| 3   | [How does Nestjs work](#How-does-nestjs-work)                                                                              |
+| 4   | [What are the HTTP Frameworks supported by Nestjs](#What-are-the-HTTP-Frameworks-supported-by-Nestjs)                      |
+| 5   | [What default Framework is used by Nestjs](#What-default-framwork-is-used-by-Nestjs)                                       |
+| 6   | [How can you specify the Framework to use in Nestjs](#How-can-you-specify-the-Framework-to-use-in-Nestjs)                  |
 | 7   | [What is responsible for handling incoming requests in Nestjs](#What-is-responsible-for-handling-incoming-requests-in-Nestjs) |
-| 8   | [What are Decorators in Nestjs](#What-are-decorators-in-Nestjs)                                                              |
-| 9   | [What are Controllers in Nestjs](#What-are-controllers-in-Nestjs)                                                             |
+| 8   | [What are Decorators in Nestjs](#What-are-decorators-in-Nestjs)                                                            |
+| 9   | [What are Controllers in Nestjs](#What-are-controllers-in-Nestjs)                                                           |
 | 10   | [What is a Request object](#What-is-a-request-object)                                                               |
-| 11   | [How do we access Request object in Nestjs](#How-do-we-access-request-object-in-nestjs)                                                            |
-| 12   | [How do we access properties of Request object in Nestjs](#How-do-we-access-properties-of-request-object-in-nestjs)                                                            |
+| 11   | [How do we access Request object in Nestjs](#How-do-we-access-request-object-in-nestjs)                                                          |
+| 12   | [How do we access properties of Request object in Nestjs](#How-do-we-access-properties-of-request-object-in-nestjs)                                                          |
 | 13   | [What are providers in Nestjs](#What-are-providers-in-nestjs)                                                              |
 
 ### What is Nestjs

@@ -128,7 +128,7 @@ The key concepts of Dependency Injection include:
 nest g module users
 ```
 
-### How do we create modules in Nestjs
+### What are modules in Nestjs
 
 # Disclaimer
 

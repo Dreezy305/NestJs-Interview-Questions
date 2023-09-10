@@ -129,6 +129,7 @@ nest g module users
 ```
 
 ### What are modules in Nestjs
+In nestjs, a module is class anotated with `@Module()` decorator. It helps in organising application structure
 
 # Disclaimer
 

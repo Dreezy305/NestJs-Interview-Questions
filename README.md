@@ -81,7 +81,6 @@ export class AuthController {
   findAllUsers(): string {
     return "This controller returns users";
   }
-}
 ```
 
 ### What is a Request object

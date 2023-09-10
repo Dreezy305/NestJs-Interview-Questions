@@ -137,7 +137,7 @@ A module is class anotated with `@Module()` decorator. It serves as a way to org
 1. Providers: Services, repositories, or any other class that should be injected via dependency injection.
 2. Controllers: The classes that handle incoming requests and return responses to the client.
 3. Exports: The providers that are available to other modules when imported.
-4.
+4. Imports: Other modules that are required by the current module.
 
 # Disclaimer
 

@@ -136,7 +136,8 @@ A module is class anotated with `@Module()` decorator. It serves as a way to org
 ### What are the fatures of modules in Nestjs
 1. Providers: Services, repositories, or any other class that should be injected via dependency injection.
 2. Controllers: The classes that handle incoming requests and return responses to the client.
-3.
+3. Exports: The providers that are available to other modules when imported.
+4.
 
 # Disclaimer
 

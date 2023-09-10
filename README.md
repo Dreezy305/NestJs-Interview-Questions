@@ -133,6 +133,8 @@ nest g module users
 
 A module is class anotated with `@Module()` decorator. It serves as a way to organize your code into distinct, cohesive units, each responsible for a particular feature of your application. Modules encapsulate providers, controllers, and other modules, promoting a modular architecture and separation of concerns.
 
+### What are the fatures of modules in Nestjs
+
 # Disclaimer
 
 The primary purpose of setting up this project is for you to get an insight into how nestjs questions might be structured. This doesn't necessarily represent the nature of nestjs interviews across various companies and neither is it a standard that represents nestjs questions.

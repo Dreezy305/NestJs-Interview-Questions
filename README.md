@@ -115,6 +115,6 @@ Providers are classes that are used to encapsulate and provide specific function
 
 # Disclaimer
 
-The primary purpose of setting up this project is for you to get an insight into how nestjs questions might be structured. This doesn't neccessarily represent the nature of nestjs interviews across various companies and neither is it a standard that represents nestjs questions.
+The primary purpose of setting up this project is for you to get an insight into how nestjs questions might be structured. This doesn't necessarily represent the nature of nestjs interviews across various companies and neither is it a standard that represents nestjs questions.
 
 Goodluck in your interview! :blush:

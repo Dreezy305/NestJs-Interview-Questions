@@ -25,6 +25,7 @@ Note => This project is specific to NestJS.
 | 15  | [What are the key concepts of Dependency Injection](#What-are-the-key-concepts-of-dependency-injection)                       |
 | 16  | [How do we create modules in Nestjs](#How-do-we-create-modules-in-Nestjs)                                                     |
 | 17  | [What are modules in Nestjs](#What-are-modules-in-Nestjs)                                                                     |
+| 18  | [What are modules in Nestjs](#What-are-modules-in-Nestjs)                                                                     |
 
 ### What is Nestjs
 
@@ -129,7 +130,8 @@ nest g module users
 ```
 
 ### What are modules in Nestjs
-A module is class anotated with `@Module()` decorator. It serves as a way to organize your code into distinct, cohesive units, each responsible for a particular feature of your application. Modules encapsulate providers, controllers, and other modules, promoting a modular architecture and separation of concerns
+
+A module is class anotated with `@Module()` decorator. It serves as a way to organize your code into distinct, cohesive units, each responsible for a particular feature of your application. Modules encapsulate providers, controllers, and other modules, promoting a modular architecture and separation of concerns.
 
 # Disclaimer
 

@@ -24,6 +24,7 @@ Note => This project is specific to NestJS.
 | 14  | [What is Dependency Injection](#What-is-dependency-injection)                                                                 |
 | 15  | [What are the key concepts of Dependency Injection](#What-are-the-key-concepts-of-dependency-injection)                       |
 | 16  | [How do we create modules in Nestjs](#How-do-we-create-modules-in-Nestjs)                                                     |
+| 17  | [What are modules in Nestjs](#What-are-modules-in-Nestjs)                                                                     |
 
 ### What is Nestjs
 
@@ -126,6 +127,8 @@ The key concepts of Dependency Injection include:
 ```typescript
 nest g module users
 ```
+
+### How do we create modules in Nestjs
 
 # Disclaimer
 

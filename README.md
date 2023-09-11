@@ -60,7 +60,7 @@ bootstrap();
 
 ### What is responsible for handling incoming requests in Nestjs
 
-In Nestjs, Controllers are responsible for handling incoming requests and returning responses to the client. The routing mechanism controls which controller receives which requests. Frequently, each controller has more than one route, and different routes can perform different actions.
+In NestJS, Controllers are responsible for handling incoming requests and returning responses to the client. The routing mechanism controls which controller receives which requests. Frequently, each controller has more than one route, and different routes can perform different actions.
 
 ### What are Decorators in Nestjs
 

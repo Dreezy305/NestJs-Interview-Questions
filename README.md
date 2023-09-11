@@ -28,6 +28,8 @@ Note => This project is specific to NestJS.
 | 18  | [What are the fatures of modules in Nestjs](#What-are-the-features-of-modules-in-Nestjs)                                      |
 | 18  | [What are the fatures of modules in Nestjs](#What-are-the-features-of-modules-in-Nestjs)                                      |
 | 19  | [What is circular dependency in Nestjs](#What-is-circular-dependency-in-Nestjs)                                               |
+| 20  | [What is forward Ref in Nestjs](#What-is-forward-ref-in-Nestjs)                                                               |
+| 21  | [What is forward Ref in Nestjs](#What-is-forward-ref-in-Nestjs)                                                               |
 
 ### What is Nestjs
 

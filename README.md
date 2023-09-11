@@ -142,7 +142,8 @@ A module is class anotated with `@Module()` decorator. It serves as a way to org
 3. Exports: The providers that are available to other modules when imported.
 4. Imports: Other modules that are required by the current module.
 
-### What are the fatures of modules in Nestjs
+### What is circular dependency in Nestjs
+It occurs when two classes depend on one another. e.g class A needs class B, and class B also need class A
 
 # Disclaimer
 

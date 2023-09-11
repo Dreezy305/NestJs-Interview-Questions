@@ -26,6 +26,7 @@ Note => This project is specific to NestJS.
 | 16  | [How do we create modules in Nestjs](#How-do-we-create-modules-in-Nestjs)                                                     |
 | 17  | [What are modules in Nestjs](#What-are-modules-in-Nestjs)                                                                     |
 | 18  | [What are the fatures of modules in Nestjs](#What-are-the-features-of-modules-in-Nestjs)                                      |
+| 18  | [What are the fatures of modules in Nestjs](#What-are-the-features-of-modules-in-Nestjs)                                      |
 
 ### What is Nestjs
 
